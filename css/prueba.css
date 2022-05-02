@@ -41,3 +41,40 @@ header {
         header div nav a:hover {
           background: rgba(255, 255, 255, 0.507);
           color: black; }
+
+.banner {
+  margin-top: 70px;
+  position: relative; }
+  .banner img {
+    width: 100%;
+    height: 100%; }
+  .banner div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-95%) translateY(-100%);
+    color: white; }
+    .banner div h2 {
+      font-size: 2em; }
+    .banner div a {
+      display: block;
+      width: 100px;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      margin-top: 20px;
+      border: 2px solid white; }
+      .banner div a:hover {
+        background: rgba(51, 51, 51, 0.5); }
+  .banner .informacion-inicio {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgba(35, 34, 34, 0.564); }
+    .banner .informacion-inicio p {
+      font-size: 13px; }
