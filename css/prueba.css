@@ -78,3 +78,39 @@ header {
     background: rgba(35, 34, 34, 0.564); }
     .banner .informacion-inicio p {
       font-size: 13px; }
+
+.introduccion {
+  text-align: center;
+  color: white; }
+  .introduccion h2 {
+    margin: 30px auto; }
+  .introduccion p {
+    margin: 30px auto; }
+
+.secciones h3 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 50px;
+  color: white; }
+
+.secciones .contenedor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .secciones .contenedor .guitarra {
+    margin: 30px; }
+    .secciones .contenedor .guitarra h4 {
+      text-align: center;
+      margin: 50px; }
+    .secciones .contenedor .guitarra img {
+      width: 100%; }
+  .secciones .contenedor .bajo {
+    margin: 30px; }
+    .secciones .contenedor .bajo h4 {
+      text-align: center;
+      margin: 50px; }
+    .secciones .contenedor .bajo img {
+      width: 100%; }
