@@ -12,7 +12,9 @@ header {
     margin: auto;
     display: table; }
     header div h1 {
-      float: left; }
+      float: left;
+      margin-top: 12px;
+      margin-left: 10px; }
     header div #menu-bar {
       display: none; }
       header div #menu-bar:checked ~ .menu {
@@ -20,7 +22,7 @@ header {
     header div label {
       float: right;
       font-size: 28px;
-      margin: 6px 6px;
+      margin: 15px 10px;
       cursor: pointer; }
     header div nav {
       position: absolute;
