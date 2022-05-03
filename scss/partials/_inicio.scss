@@ -9,12 +9,6 @@
     }
 }
 .secciones{
-    h3{
-        text-align: center;
-        font-size: 1.5em;
-        margin-top: 50px;
-        color: white;
-    }
     .contenedor{
         display: flex;
         justify-content: center;
@@ -22,6 +16,20 @@
         color: white;
         font-size: 1.5em;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
+        .colaboraciones{
+            margin: 30px;
+            h4{
+                color: rgba(0, 0, 0, 0.9);
+                text-align: center; 
+                margin: 50px 0px;
+                border: 2px solid rgba(168, 159, 159, 0.605);
+                border-radius: 15px;
+                background: url(../../img/fondo3.jpg);
+            }
+            img{
+                width: 100%;
+            }
+        }
         .guitarra{
             margin: 30px;
             h4{
