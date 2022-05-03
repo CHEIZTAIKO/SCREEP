@@ -11,14 +11,10 @@ header{
         width: 98%;
         margin: auto;
         display: table;
-        a{
-            color: white;
-            h1{
+            h1{ 
                 float: left;
-                margin-top: 12px;
-                margin-left:10px ;
+                margin-top: 6px;
             }
-        }
         #menu-bar{
             display: none;
             &:checked ~ .menu{
@@ -28,7 +24,7 @@ header{
         label{
             float: right;
             font-size: 28px;
-            margin:15px 10px;
+            margin:6px 6px;
             cursor: pointer;
         }
         nav{
