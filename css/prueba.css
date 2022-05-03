@@ -183,3 +183,18 @@ div {
     color: white;
     text-align: center;
     font-size: 1.5em; }
+
+div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  div .selector {
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: black; }

@@ -1,0 +1,16 @@
+div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+.selector{
+    width:100px ;
+    height:40px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: black;
+}
+}
