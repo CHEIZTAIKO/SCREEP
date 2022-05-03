@@ -31,7 +31,7 @@ header {
       height: auto;
       background: rgba(0, 0, 0, 0.9);
       transition: all 0.5s;
-      transform: translateX(-100%); }
+      transform: translatex(-110%); }
       header div nav a {
         display: block;
         color: white;
@@ -95,7 +95,7 @@ footer {
     color: white; }
 
 .banner {
-  margin-top: 70px;
+  margin-top: 60px;
   position: relative; }
   .banner img {
     width: 100%;
@@ -174,3 +174,12 @@ footer {
       background: url(../../img/fondo1.jpg); }
     .secciones .contenedor .bajo img {
       width: 100%; }
+
+div {
+  margin-top: 60px;
+  position: relative; }
+  div h1 {
+    margin: 10px 0px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em; }
