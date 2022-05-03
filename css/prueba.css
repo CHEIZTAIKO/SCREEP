@@ -11,10 +11,12 @@ header {
     width: 98%;
     margin: auto;
     display: table; }
-    header div h1 {
-      float: left;
-      margin-top: 12px;
-      margin-left: 10px; }
+    header div a {
+      color: white; }
+      header div a h1 {
+        float: left;
+        margin-top: 12px;
+        margin-left: 10px; }
     header div #menu-bar {
       display: none; }
       header div #menu-bar:checked ~ .menu {

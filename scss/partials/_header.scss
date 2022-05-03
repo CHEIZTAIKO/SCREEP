@@ -11,10 +11,13 @@ header{
         width: 98%;
         margin: auto;
         display: table;
-        h1{
-            float: left;
-            margin-top: 12px;
-            margin-left:10px ;
+        a{
+            color: white;
+            h1{
+                float: left;
+                margin-top: 12px;
+                margin-left:10px ;
+            }
         }
         #menu-bar{
             display: none;
