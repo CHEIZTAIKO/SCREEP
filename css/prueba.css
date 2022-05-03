@@ -150,19 +150,27 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   color: white;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
   .secciones .contenedor .guitarra {
     margin: 30px; }
     .secciones .contenedor .guitarra h4 {
+      color: rgba(0, 0, 0, 0.9);
       text-align: center;
-      margin: 50px; }
+      margin: 50px 0px;
+      border: 2px solid rgba(168, 159, 159, 0.605);
+      border-radius: 15px;
+      background: url(../../img/fondo2.jpg); }
     .secciones .contenedor .guitarra img {
       width: 100%; }
   .secciones .contenedor .bajo {
     margin: 30px; }
     .secciones .contenedor .bajo h4 {
+      color: rgba(0, 0, 0, 0.9);
       text-align: center;
-      margin: 50px; }
+      margin: 50px 0px;
+      border: 2px solid rgba(168, 159, 159, 0.605);
+      border-radius: 15px;
+      background: url(../../img/fondo1.jpg); }
     .secciones .contenedor .bajo img {
       width: 100%; }
