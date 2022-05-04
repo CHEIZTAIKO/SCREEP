@@ -5,8 +5,8 @@ footer{
         flex-direction: column;
         color: white;
         h3{
-            font-size: 1.5em;
-            margin: 40px 0px;
+            font-size: 1em;
+            margin: 30px 0px;
             text-align: center;
         }
         div{
@@ -17,7 +17,6 @@ footer{
             a{  
                 text-decoration: none;
                 color: white;
-                margin: 10px 0px;
                 &:hover{
                     position:relative;
                     bottom: 3px;
@@ -32,7 +31,7 @@ footer{
         color: white;
         h3{
             font-size: 1.5em;
-            margin: 40px 0px;
+            margin: 0px 0px 20px 0px;
             text-align: center;
         }
         ul{
@@ -48,8 +47,8 @@ footer{
         }
     }
     p{  
-        margin: 40px 0px;
-        font-size: 1em;
+        margin: 30px 0px;
+        font-size: 0.8em;
         text-align: center;
         color: white;
     }
