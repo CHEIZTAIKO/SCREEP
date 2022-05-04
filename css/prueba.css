@@ -241,3 +241,15 @@ form {
       background: rgba(236, 233, 233, 0.4);
       color: black;
       cursor: pointer; }
+
+.guitarras {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .guitarras .card {
+    width: 220px;
+    margin: 10px auto;
+    background-color: rgba(72, 68, 68, 0.413); }
+    .guitarras .card img {
+      width: 50%;
+      margin: 10px auto; }

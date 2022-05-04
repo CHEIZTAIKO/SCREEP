@@ -1,0 +1,15 @@
+.guitarras{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .card{
+        width: 220px;
+        margin:10px auto;
+        background-color: rgba(72, 68, 68, 0.413);
+        img{
+            width: 50%;
+            margin: 10px auto;
+        }
+    }
+
+}
