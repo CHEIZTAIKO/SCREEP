@@ -247,11 +247,17 @@ form {
   flex-direction: row;
   flex-wrap: wrap; }
   .instrumentos .card {
-    width: 220px;
+    display: flex;
+    flex-direction: column;
+    width: 230px;
     margin: 10px auto;
     background-color: rgba(72, 68, 68, 0.413);
     border: 1px solid white;
     border-radius: 10px; }
     .instrumentos .card img {
       width: 50%;
-      margin: 10px auto; }
+      margin: 20px auto; }
+    .instrumentos .card h4 {
+      font-size: 16px;
+      margin: 20px auto;
+      color: white; }
