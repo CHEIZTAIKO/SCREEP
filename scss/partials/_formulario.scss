@@ -1,0 +1,46 @@
+form{
+    width: 80%;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding:10px 20px ;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 2px solid rgba(200, 199, 199,0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    h2{
+        color: rgb(151, 157, 185);
+    text-align: center;
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 20px;
+    }
+    input{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+    }
+    textarea{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        min-height: 120px;
+        max-height: 220px;
+        max-width: 100%;
+    }
+    #boton{
+        color: white;
+        background: rgba(0,0,0,0.4);
+        padding: 20px;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: 15px;
+        &:hover{
+            background: rgba(236, 233, 233, 0.4);
+            color: black;
+            cursor: pointer;
+        }
+    }
+}
