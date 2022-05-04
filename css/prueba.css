@@ -154,7 +154,7 @@ footer {
       margin: 50px 0px;
       border: 2px solid rgba(168, 159, 159, 0.605);
       border-radius: 15px;
-      background: url(../../img/fondo3.jpg); }
+      background-image: url(../../img/fondo3.jpg); }
     .secciones .contenedor .colaboraciones img {
       width: 100%; }
   .secciones .contenedor .guitarra {
