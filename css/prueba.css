@@ -257,6 +257,22 @@ form {
     .instrumentos .card img {
       width: 50%;
       margin: 20px auto; }
+      .instrumentos .card img.a:hover {
+        filter: drop-shadow(0 0 30px #b3ff00); }
+      .instrumentos .card img.b:hover {
+        filter: drop-shadow(0 0 30px #ffbf00); }
+      .instrumentos .card img.c:hover {
+        filter: drop-shadow(0 0 20px #7d63ba); }
+      .instrumentos .card img.d:hover {
+        filter: drop-shadow(0 0 30px #4eb6c4); }
+      .instrumentos .card img.e:hover {
+        filter: drop-shadow(0 0 30px #ff00e1); }
+      .instrumentos .card img.f:hover {
+        filter: drop-shadow(0 0 30px #2bff00); }
+      .instrumentos .card img.g:hover {
+        filter: drop-shadow(0 0 30px red); }
+      .instrumentos .card img.h:hover {
+        filter: drop-shadow(0 0 30px white); }
     .instrumentos .card h4 {
       font-size: 16px;
       margin: 20px auto;
