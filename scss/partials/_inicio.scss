@@ -4,8 +4,9 @@
     h2{
         margin: 30px auto;
     }
-    p{
-        margin:30px auto ;
+    p{  
+        font-size: 9px;
+        margin-top:30px;
     }
 }
 .secciones{
@@ -14,10 +15,10 @@
         justify-content: center;
         flex-wrap: wrap;
         color: white;
-        font-size: 1.5em;
+        font-size: 1em;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         .colaboraciones{
-            margin: 30px;
+            margin: 0px 30px 30px 30px;
             h4{
                 color: rgba(0, 0, 0, 0.9);
                 text-align: center; 
