@@ -12,7 +12,7 @@
         transform: translateX(-95%) translateY(-130%);
         color:white;
         h2{
-            font-size:2em;
+            font-size:1.5em;
         }
         a{
             display: block;
@@ -29,16 +29,16 @@
     }
     .informacion-inicio{
         position: absolute;
-        top: 80%;
+        top: 50%;
         left: 50%;
-        transform: translateX(-50%) translateY(-80%);
+        transform: translateX(-50%) translateY(30%);
         color:white;
         border: 2px solid white;
-        border-radius: 10px;
+        border-radius: 15px;
         padding: 10px;
         background:rgba(35, 34, 34, 0.564);
         p{
-            font-size: 13px;
+            font-size: 7px;
         }
     }
 }

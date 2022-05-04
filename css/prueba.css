@@ -106,7 +106,7 @@ footer {
     transform: translateX(-95%) translateY(-130%);
     color: white; }
     .banner div h2 {
-      font-size: 2em; }
+      font-size: 1.5em; }
     .banner div a {
       display: block;
       width: 100px;
@@ -119,16 +119,16 @@ footer {
         background: rgba(51, 51, 51, 0.5); }
   .banner .informacion-inicio {
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-80%);
+    transform: translateX(-50%) translateY(30%);
     color: white;
     border: 2px solid white;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 10px;
     background: rgba(35, 34, 34, 0.564); }
     .banner .informacion-inicio p {
-      font-size: 13px; }
+      font-size: 7px; }
 
 .introduccion {
   text-align: center;
