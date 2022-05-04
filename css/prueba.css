@@ -242,16 +242,16 @@ form {
       color: black;
       cursor: pointer; }
 
-.guitarras {
+.instrumentos {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
-  .guitarras .card {
+  .instrumentos .card {
     width: 220px;
     margin: 10px auto;
     background-color: rgba(72, 68, 68, 0.413);
     border: 1px solid white;
     border-radius: 10px; }
-    .guitarras .card img {
+    .instrumentos .card img {
       width: 50%;
       margin: 10px auto; }
