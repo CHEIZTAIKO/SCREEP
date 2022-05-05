@@ -110,6 +110,23 @@ footer {
     font-size: 7px;
     color: white; }
 
+@media (min-width: 768px) {
+  footer .yo {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; }
+    footer .yo h3 {
+      font-size: 2em; }
+    footer .yo div {
+      flex-direction: column; }
+      footer .yo div a {
+        font-size: 1.5em;
+        margin-bottom: 45px; }
+  footer .productos {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; } }
+
 .banner {
   margin-top: 50px;
   position: relative; }
