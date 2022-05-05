@@ -1,12 +1,12 @@
 .instrumentos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr;
     margin:20px;
+    width: 95%;
     .card{
         display: flex;
         flex-direction: column;
-        width: 55%;
+        width: 230px;
         margin:10px auto;
         background-color: rgba(72, 68, 68, 0.413);
         border: 1px solid white;
@@ -49,30 +49,24 @@
     }
 }
 
-@media (min-width:480px){
+@media (min-width:768px){
     .instrumentos{
+        grid-template-columns: 1fr 1fr;
         .card{
-            width: 40%;
             h4{
                 font-size:20px;
             }
         }
     }
 }
-@media (min-width:768px){
-    .instrumentos{
-        .card{
-            width: 35%;
-            h4{
-                font-size:24px;
-            }
-        }
-    }
-}
+
 @media (min-width:1024px){
     .instrumentos{
+        grid-template-columns: repeat(4, 1fr);
         .card{
-            width: 230px;
+            h4{
+                font-size:20px;
+            }
         }
     }
 }

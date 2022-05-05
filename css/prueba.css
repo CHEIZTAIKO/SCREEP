@@ -324,14 +324,14 @@ form {
     width: 450px; } }
 
 .instrumentos {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 20px; }
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 20px;
+  width: 95%; }
   .instrumentos .card {
     display: flex;
     flex-direction: column;
-    width: 55%;
+    width: 230px;
     margin: 10px auto;
     background-color: rgba(72, 68, 68, 0.413);
     border: 1px solid white;
@@ -360,18 +360,14 @@ form {
       margin: 20px auto;
       color: white; }
 
-@media (min-width: 480px) {
-  .instrumentos .card {
-    width: 40%; }
+@media (min-width: 768px) {
+  .instrumentos {
+    grid-template-columns: 1fr 1fr; }
     .instrumentos .card h4 {
       font-size: 20px; } }
 
-@media (min-width: 768px) {
-  .instrumentos .card {
-    width: 35%; }
-    .instrumentos .card h4 {
-      font-size: 24px; } }
-
 @media (min-width: 1024px) {
-  .instrumentos .card {
-    width: 230px; } }
+  .instrumentos {
+    grid-template-columns: repeat(4, 1fr); }
+    .instrumentos .card h4 {
+      font-size: 20px; } }
