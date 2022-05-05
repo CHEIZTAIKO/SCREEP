@@ -82,6 +82,35 @@ footer{
             flex-direction: row;
             justify-content: space-evenly;
             align-items: center;
+            margin: 0;
         }
     }
+}
+
+@media (min-width:1024px) {
+    footer{
+        .yo{
+            margin: 0px 50px;
+            justify-content: space-between;
+            div{
+            flex-direction: row;
+            align-content: center;
+            margin: 0px;
+            a{
+                margin: 0px 20px;
+            }
+        }
+    }
+    .productos{
+        margin:0px 50px;
+        margin-top: 40px;
+        justify-content: space-between;
+        ul{
+            flex-direction: row;
+            li{
+                margin: 0px 20px;
+            }
+        }
+    }
+}
 }
