@@ -48,6 +48,9 @@
     .banner{
         height: 300px;
         overflow: hidden;
+        div{
+            transform: translateX(-80%) translateY(-50%);
+        }
         img{
             height: auto;
             margin-top: -130px;
@@ -58,6 +61,11 @@
     .banner{
         img{
             margin-top: -220px;
+        }
+        div{
+            a{
+                display: none;
+            }
         }
     }
 }
