@@ -353,11 +353,15 @@ form {
 
 @media (min-width: 480px) {
   .instrumentos .card {
-    width: 40%; } }
+    width: 40%; }
+    .instrumentos .card h4 {
+      font-size: 20px; } }
 
 @media (min-width: 768px) {
   .instrumentos .card {
-    width: 35%; } }
+    width: 35%; }
+    .instrumentos .card h4 {
+      font-size: 24px; } }
 
 @media (min-width: 1024px) {
   .instrumentos .card {
