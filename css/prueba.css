@@ -317,7 +317,8 @@ form {
 .instrumentos {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-bottom: 50px; }
   .instrumentos .card {
     display: flex;
     flex-direction: column;
