@@ -246,10 +246,10 @@ footer {
     .secciones .contenedor .bajo img {
       width: 100%; }
 
-div {
+.titulos {
   margin-top: 60px;
   position: relative; }
-  div h1 {
+  .titulos h1 {
     margin: 10px 0px;
     color: white;
     text-align: center;
