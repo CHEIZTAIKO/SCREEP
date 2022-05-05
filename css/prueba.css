@@ -278,8 +278,7 @@ form {
   box-sizing: border-box;
   margin-top: 20px;
   border-radius: 15px;
-  border: 2px solid rgba(200, 199, 199, 0.5);
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  border: 2px solid rgba(200, 199, 199, 0.5); }
   form h2 {
     color: #979db9;
     text-align: center;
