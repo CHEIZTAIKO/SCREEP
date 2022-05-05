@@ -318,11 +318,11 @@ form {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-bottom: 50px; }
+  margin: 20px; }
   .instrumentos .card {
     display: flex;
     flex-direction: column;
-    width: 230px;
+    width: 55%;
     margin: 10px auto;
     background-color: rgba(72, 68, 68, 0.413);
     border: 1px solid white;
@@ -350,3 +350,15 @@ form {
       font-size: 16px;
       margin: 20px auto;
       color: white; }
+
+@media (min-width: 480px) {
+  .instrumentos .card {
+    width: 40%; } }
+
+@media (min-width: 768px) {
+  .instrumentos .card {
+    width: 35%; } }
+
+@media (min-width: 1024px) {
+  .instrumentos .card {
+    width: 230px; } }
