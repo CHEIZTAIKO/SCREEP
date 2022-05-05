@@ -262,7 +262,6 @@ footer {
 .select {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  flex-wrap: wrap;
   margin: 100px 0px; }
   .select .selector {
     width: 100px;
@@ -273,6 +272,18 @@ footer {
     border-radius: 20px;
     border: 2px solid white;
     background-color: black; }
+
+@media (min-width: 768px) {
+  .select .selector {
+    width: 130px;
+    font-size: 18px; } }
+
+@media (min-width: 1024px) {
+  .select {
+    margin: 150px 0px; }
+    .select .selector {
+      width: 130px;
+      font-size: 18px; } }
 
 form {
   width: 80%;
