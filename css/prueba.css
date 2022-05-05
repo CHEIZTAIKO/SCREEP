@@ -68,7 +68,7 @@ footer {
     flex-direction: column;
     color: white; }
     footer .yo h3 {
-      font-size: 1em;
+      font-size: 1.5em;
       margin: 30px 0px;
       text-align: center; }
     footer .yo div {
@@ -126,7 +126,13 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0; } }
+    margin: 0; }
+    footer .productos h3 {
+      font-size: 2em; }
+    footer .productos ul li {
+      font-size: 1em; }
+  footer p {
+    font-size: 1em; } }
 
 @media (min-width: 1024px) {
   footer .yo {
