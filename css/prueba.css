@@ -259,17 +259,17 @@ footer {
     text-align: center;
     font-size: 1.5em; }
 
-div {
-  display: flex;
-  flex-direction: row;
+.select {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   flex-wrap: wrap;
-  justify-content: space-around; }
-  div .selector {
+  margin: 100px 0px; }
+  .select .selector {
     width: 100px;
     height: 40px;
     color: white;
     font-size: 12px;
-    margin-bottom: 40px;
+    margin: 0 auto;
     border-radius: 20px;
     border: 2px solid white;
     background-color: black; }

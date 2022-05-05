@@ -1,14 +1,14 @@
-div{
-    display: flex;
-    flex-direction: row;
+.select{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
     flex-wrap: wrap;
-    justify-content: space-around;
+    margin: 100px 0px;
 .selector{
     width:100px ;
     height:40px;
     color: rgb(255, 255, 255);
     font-size: 12px;
-    margin-bottom: 40px;
+    margin: 0 auto;
     border-radius: 20px;
     border: 2px solid white;
     background-color: black;
