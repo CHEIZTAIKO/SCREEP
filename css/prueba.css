@@ -86,7 +86,8 @@ footer {
   footer .productos {
     display: flex;
     flex-direction: column;
-    color: white; }
+    color: white;
+    margin: 20px auto; }
     footer .productos h3 {
       font-size: 1.5em;
       margin: 0px 0px 20px 0px;
@@ -94,11 +95,13 @@ footer {
     footer .productos ul {
       display: flex;
       flex-direction: column;
-      text-align: center; }
+      text-align: center;
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px; }
       footer .productos ul li {
         font-size: 13px;
-        margin: 10px 0px;
-        list-style-type: none; }
+        margin: 10px 0px; }
   footer p {
     margin: 30px 0px;
     font-size: 0.8em;
