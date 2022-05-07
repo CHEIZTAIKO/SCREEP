@@ -260,7 +260,16 @@ footer {
       border: 2px solid rgba(168, 159, 159, 0.605);
       border-radius: 15px; }
     .secciones .contenedor .guitarra img {
-      width: 100%; }
+      width: 100%;
+      animation: guitarra 10s infinite; }
+
+@keyframes guitarra {
+  0% {
+    transform: rotateX(40deg); }
+  50% {
+    transform: rotateX(0deg); }
+  100% {
+    transform: rotateX(-40deg); } }
   .secciones .contenedor .bajo {
     margin: 30px; }
     .secciones .contenedor .bajo h4 {
@@ -270,7 +279,16 @@ footer {
       border: 2px solid rgba(168, 159, 159, 0.605);
       border-radius: 15px; }
     .secciones .contenedor .bajo img {
-      width: 100%; }
+      width: 100%;
+      animation: bajo 10s infinite; }
+
+@keyframes bajo {
+  0% {
+    transform: rotateX(40deg); }
+  50% {
+    transform: rotateX(0deg); }
+  100% {
+    transform: rotateX(-40deg); } }
 
 .titulos {
   margin-top: 60px;
