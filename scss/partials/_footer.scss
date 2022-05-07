@@ -3,28 +3,53 @@ footer{
     .yo{
         display: flex;
         flex-direction: column;
-        color: white;
         h3{
             font-size: 1.5em;
             margin: 30px 0px;
             text-align: center;
+            color: white;
         }
         div{
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
             font-size: 1.5em;
-            a{  
-                text-decoration: none;
-                color: white;
-                &:hover{
-                    position:relative;
-                    bottom: 3px;
+            text-decoration: none;
+            .instagram{
+                animation: instagram 5s infinite;
+            }
+            @keyframes instagram{
+                0%{
                     color: white;
                 }
+                100%{
+                    color: rgb(223, 1, 223);
+                }
             }
-        }
-    }
+            .linkedin{
+                animation: linkedin 5s infinite;
+            }
+            @keyframes linkedin{
+                0%{
+                    color: white;
+                }
+                100%{
+                    color: rgb(22, 10, 255);
+                }
+            }
+            .youtube{
+                animation: youtube 5s infinite;
+            }
+            @keyframes youtube{
+                0%{
+                    color: white;
+                }
+                100%{
+                    color: rgb(225, 27, 27);
+                }
+            }
+}
+}
     .productos{
         display: flex;
         flex-direction: column;
