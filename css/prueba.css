@@ -265,11 +265,11 @@ footer {
 
 @keyframes guitarra {
   0% {
-    transform: rotateX(40deg); }
+    transform: rotateX(45deg); }
   50% {
     transform: rotateX(0deg); }
   100% {
-    transform: rotateX(-40deg); } }
+    transform: rotateX(-45deg); } }
   .secciones .contenedor .bajo {
     margin: 30px; }
     .secciones .contenedor .bajo h4 {
@@ -284,11 +284,11 @@ footer {
 
 @keyframes bajo {
   0% {
-    transform: rotateX(40deg); }
+    transform: rotateX(45deg); }
   50% {
     transform: rotateX(0deg); }
   100% {
-    transform: rotateX(-40deg); } }
+    transform: rotateX(-45deg); } }
 
 .titulos {
   margin-top: 60px;
