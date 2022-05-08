@@ -40,10 +40,28 @@
                 border: 2px solid rgba(168, 159, 159, 0.605);
                 border-radius: 15px;
             }
+            div{
             img{
                 width: 100%;
                 animation: guitarra 5s infinite;
                 animation-direction: alternate;
+            }
+            .especificaciones{
+                    display: none;
+                    flex-direction: column;
+                    border: 1px solid white;
+                    border-radius: 15px;
+                    width: 500px;
+                    h5{
+                        text-align: center;
+                        padding: 10px;
+                        font-size: 2em;
+                    }
+                    ul{
+                        list-style-type: none;
+                        padding: 5px;
+                    }
+            }
             }
             @keyframes guitarra{
                 0%{
@@ -75,6 +93,26 @@
                 }
                 100%{
                     transform: rotateX(30deg);
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:1024px){
+    .secciones{
+        .contenedor{
+            .guitarra{
+                div{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    img{
+                        width: 50%;
+                    }
+                    .especificaciones{
+                        display: flex;
+                    }
                 }
             }
         }
