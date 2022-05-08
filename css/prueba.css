@@ -78,7 +78,8 @@ footer {
       font-size: 1.5em;
       text-decoration: none; }
       footer .yo div .instagram {
-        animation: instagram 5s infinite; }
+        animation: instagram 3s infinite;
+        animation-direction: alternate; }
 
 @keyframes instagram {
   0% {
@@ -86,7 +87,8 @@ footer {
   100% {
     color: #df01df; } }
       footer .yo div .linkedin {
-        animation: linkedin 5s infinite; }
+        animation: linkedin 3s infinite;
+        animation-direction: alternate; }
 
 @keyframes linkedin {
   0% {
@@ -94,7 +96,8 @@ footer {
   100% {
     color: #160aff; } }
       footer .yo div .youtube {
-        animation: youtube 5s infinite; }
+        animation: youtube 3s infinite;
+        animation-direction: alternate; }
 
 @keyframes youtube {
   0% {

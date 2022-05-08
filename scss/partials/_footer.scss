@@ -16,7 +16,8 @@ footer{
             font-size: 1.5em;
             text-decoration: none;
             .instagram{
-                animation: instagram 5s infinite;
+                animation: instagram 3s infinite;
+                animation-direction: alternate;
             }
             @keyframes instagram{
                 0%{
@@ -27,7 +28,8 @@ footer{
                 }
             }
             .linkedin{
-                animation: linkedin 5s infinite;
+                animation: linkedin 3s infinite;
+                animation-direction: alternate;
             }
             @keyframes linkedin{
                 0%{
@@ -38,7 +40,8 @@ footer{
                 }
             }
             .youtube{
-                animation: youtube 5s infinite;
+                animation: youtube 3s infinite;
+                animation-direction: alternate;
             }
             @keyframes youtube{
                 0%{
