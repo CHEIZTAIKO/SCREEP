@@ -293,10 +293,23 @@ footer {
       margin: 50px 0px;
       border: 2px solid rgba(168, 159, 159, 0.605);
       border-radius: 15px; }
-    .secciones .contenedor .bajo img {
+    .secciones .contenedor .bajo div img {
       width: 100%;
       animation: bajo 5s infinite;
       animation-direction: alternate; }
+    .secciones .contenedor .bajo div .especificaciones {
+      display: none;
+      flex-direction: column;
+      border: 1px solid white;
+      border-radius: 15px;
+      width: 500px; }
+      .secciones .contenedor .bajo div .especificaciones h5 {
+        text-align: center;
+        padding: 10px;
+        font-size: 2em; }
+      .secciones .contenedor .bajo div .especificaciones ul {
+        list-style-type: none;
+        padding: 5px; }
 
 @keyframes bajo {
   0% {
@@ -304,15 +317,45 @@ footer {
   100% {
     transform: rotateX(30deg); } }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .secciones .contenedor .guitarra div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between; }
-    .secciones .contenedor .guitarra div img {
-      width: 50%; }
     .secciones .contenedor .guitarra div .especificaciones {
-      display: flex; } }
+      display: flex;
+      width: 80%;
+      margin: 30px auto; }
+  .secciones .contenedor .bajo div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .secciones .contenedor .bajo div .especificaciones {
+      display: flex;
+      width: 80%;
+      margin: 30px auto; } }
+
+@media (min-width: 1024px) {
+  .secciones .contenedor .guitarra div {
+    flex-direction: row; }
+    .secciones .contenedor .guitarra div img {
+      width: 50%;
+      height: 50%;
+      align-self: center; }
+    .secciones .contenedor .guitarra div .especificaciones {
+      display: flex;
+      margin: 20px;
+      width: 400px; }
+  .secciones .contenedor .bajos div {
+    flex-direction: row; }
+    .secciones .contenedor .bajos div img {
+      width: 50%;
+      height: 50%;
+      align-self: center; }
+    .secciones .contenedor .bajos div .especificaciones {
+      display: flex;
+      margin: 20px;
+      width: 400px; } }
 
 .titulos {
   margin-top: 60px;

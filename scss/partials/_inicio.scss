@@ -82,10 +82,28 @@
                 border: 2px solid rgba(168, 159, 159, 0.605);
                 border-radius: 15px;
             }
+            div{
             img{
                 width: 100%;
                 animation: bajo 5s infinite;
                 animation-direction: alternate;
+            }
+            .especificaciones{
+                display: none;
+                    flex-direction: column;
+                    border: 1px solid white;
+                    border-radius: 15px;
+                    width: 500px;
+                    h5{
+                        text-align: center;
+                        padding: 10px;
+                        font-size: 2em;
+                    }
+                    ul{
+                        list-style-type: none;
+                        padding: 5px;
+                    }
+            }
             }
             @keyframes bajo{
                 0%{
@@ -99,19 +117,68 @@
     }
 }
 
-@media (min-width:1024px){
+@media (min-width:768px){
     .secciones{
         .contenedor{
             .guitarra{
                 div{
                     display: flex;
-                    flex-direction: row;
+                    flex-direction: column;
                     justify-content: space-between;
                     img{
-                        width: 50%;
                     }
                     .especificaciones{
                         display: flex;
+                        width: 80%;
+                        margin: 30px auto;
+                    }
+                }
+            }
+            .bajo{
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .especificaciones{
+                        display: flex;
+                        width: 80%;
+                        margin: 30px auto;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:1024px){
+    .secciones{
+        .contenedor{
+            .guitarra{
+                div{
+                    flex-direction: row;
+                    img{
+                        width: 50%;
+                        height: 50%;
+                        align-self: center;
+                    }
+                    .especificaciones{
+                        display: flex;
+                        margin: 20px;
+                        width: 400px;
+                    }
+                }
+            }
+            .bajos{
+                div{
+                    flex-direction: row;
+                    img{
+                        width: 50%;
+                        height: 50%;
+                        align-self: center;
+                    }
+                    .especificaciones{
+                        display: flex;
+                        margin: 20px;
+                        width: 400px;
                     }
                 }
             }
