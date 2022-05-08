@@ -343,17 +343,15 @@ footer {
       height: 50%;
       align-self: center; }
     .secciones .contenedor .guitarra div .especificaciones {
-      display: flex;
       margin: 20px;
       width: 400px; }
-  .secciones .contenedor .bajos div {
+  .secciones .contenedor .bajo div {
     flex-direction: row; }
-    .secciones .contenedor .bajos div img {
+    .secciones .contenedor .bajo div img {
       width: 50%;
       height: 50%;
       align-self: center; }
-    .secciones .contenedor .bajos div .especificaciones {
-      display: flex;
+    .secciones .contenedor .bajo div .especificaciones {
       margin: 20px;
       width: 400px; } }
 
