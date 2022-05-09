@@ -551,4 +551,6 @@ form {
 
 @media (min-width: 1024px) {
   .galeria {
-    grid-template-rows: 500px 300px 300px 500px; } }
+    grid-template-rows: 500px 300px 300px 500px; }
+    .galeria figure figcaption p {
+      font-size: 1.2em; } }
