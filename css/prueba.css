@@ -537,7 +537,7 @@ form {
     gap: 20px;
     margin: 50px; }
     .galeria figure figcaption p {
-      font-size: 16px; }
+      font-size: 22px; }
     .galeria figure:nth-child(1) {
       grid-column: 1 / 9; }
     .galeria figure:nth-child(2) {
