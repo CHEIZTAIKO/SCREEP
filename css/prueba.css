@@ -498,9 +498,7 @@ form {
 
 @media (min-width: 1024px) {
   .instrumentos {
-    grid-template-columns: repeat(4, 1fr); }
-    .instrumentos .card h4 {
-      font-size: 20px; } }
+    grid-template-columns: repeat(4, 1fr); } }
 
 .galeria {
   width: 90%;
