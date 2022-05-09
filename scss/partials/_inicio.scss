@@ -12,7 +12,12 @@
 }
 .secciones{
     .contenedor{
-        @extend .contenedor;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: white;
+        font-size: 1em;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
         .colaboraciones{
             margin: 0px 30px 30px 30px;
             h4{
@@ -30,13 +35,15 @@
             div{
             img{
                 @extend .animaciones;
+                width: 100%;
             }
             .especificaciones{
                     display: none;
                     width: 500px;
-                    @extend .especificaciones;
+                    flex-direction: column;
+                    background-color: rgba(84, 81, 81, 0.425);
                     h5{
-                        @extend .titulo-especificaciones;
+                        @extend .titulo-esp;
                     }
                     ul{
                         list-style-type: circle;
@@ -64,13 +71,15 @@
             div{
             img{
                 @extend .animaciones;
+                width: 100%;
             }
             .especificaciones{
+                flex-direction: column;
+                background-color: rgba(84, 81, 81, 0.425);
                 display: none;
                 width: 500px;
-                @extend .especificaciones;
                     h5{
-                        @extend .titulo-especificaciones;
+                        @extend .titulo-esp;
                     }
                     ul{
                         list-style-type: circle;

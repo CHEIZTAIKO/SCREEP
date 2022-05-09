@@ -8,14 +8,6 @@
         border: $borde;
         border-radius: 10px;
 }
-.contenedor{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        color: white;
-        font-size: 1em;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
 .subtitulos{
                 color: rgba(181, 181, 181, 0.9);
                 text-align: center; 
@@ -23,22 +15,17 @@
                 border: $borde-secciones;
                 border-radius: 15px;
 }
+.animaciones{
+    animation: instrumento 5s infinite;
+    animation-direction: alternate;
+}
 .li{
     padding: 10px;
     border-bottom: 1px solid rgba(153, 148, 148, 0.498);
 }
-.titulo-especificaciones{
+.titulo-esp{
     text-align: center;
     padding: 10px;
     font-size: 2em;
     border-bottom: 1px solid rgba(153, 148, 148, 0.498);
-}
-.especificaciones{
-    flex-direction: column;
-    background-color: rgba(84, 81, 81, 0.425);
-}
-.animaciones{
-    width: 100%;
-    animation: instrumento 5s infinite;
-    animation-direction: alternate;
 }
