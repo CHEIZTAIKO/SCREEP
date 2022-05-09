@@ -239,12 +239,6 @@ footer {
 
 .secciones .contenedor .colaboraciones {
   margin: 0px 30px 30px 30px; }
-  .secciones .contenedor .colaboraciones h4 {
-    color: rgba(181, 181, 181, 0.9);
-    text-align: center;
-    margin: 50px 0px;
-    border: 2px solid rgba(168, 159, 159, 0.605);
-    border-radius: 15px; }
   .secciones .contenedor .colaboraciones img {
     width: 100%; }
 
@@ -278,12 +272,6 @@ footer {
 
 .secciones .contenedor .bajo {
   margin: 30px; }
-  .secciones .contenedor .bajo h4 {
-    color: rgba(181, 181, 181, 0.9);
-    text-align: center;
-    margin: 50px 0px;
-    border: 2px solid rgba(168, 159, 159, 0.605);
-    border-radius: 15px; }
   .secciones .contenedor .bajo div img {
     width: 100%;
     animation: instrumento 5s infinite;
@@ -554,7 +542,7 @@ form {
   font-size: 1em;
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
-.subtitulos, .secciones .contenedor .guitarra h4 {
+.subtitulos, .secciones .contenedor .colaboraciones h4, .secciones .contenedor .guitarra h4, .secciones .contenedor .bajo h4 {
   color: rgba(181, 181, 181, 0.9);
   text-align: center;
   margin: 50px 0px;
