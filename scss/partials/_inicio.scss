@@ -29,15 +29,12 @@
             }
             div{
             img{
-                width: 100%;
-                animation: instrumento 5s infinite;
-                animation-direction: alternate;
+                @extend .animaciones;
             }
             .especificaciones{
                     display: none;
-                    flex-direction: column;
                     width: 500px;
-                    background-color: rgba(84, 81, 81, 0.425);
+                    @extend .especificaciones;
                     h5{
                         @extend .titulo-especificaciones;
                     }
@@ -66,15 +63,12 @@
             }
             div{
             img{
-                width: 100%;
-                animation: instrumento 5s infinite;
-                animation-direction: alternate;
+                @extend .animaciones;
             }
             .especificaciones{
                 display: none;
-                flex-direction: column;
                 width: 500px;
-                background-color: rgba(84, 81, 81, 0.425);
+                @extend .especificaciones;
                     h5{
                         @extend .titulo-especificaciones;
                     }

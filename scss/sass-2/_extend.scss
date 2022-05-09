@@ -33,3 +33,12 @@
     font-size: 2em;
     border-bottom: 1px solid rgba(153, 148, 148, 0.498);
 }
+.especificaciones{
+    flex-direction: column;
+    background-color: rgba(84, 81, 81, 0.425);
+}
+.animaciones{
+    width: 100%;
+    animation: instrumento 5s infinite;
+    animation-direction: alternate;
+}

@@ -1,9 +1,11 @@
+@import "../variables/variables";
 .select{
     display: grid;
     grid-template-columns: repeat(4, 1fr) ;
     margin: 100px 0px;
 .selector{
     width:100px ;
+    font-size: 12px;
     height:40px;
     color: rgb(255, 255, 255);
     font-size: 12px;
