@@ -39,16 +39,12 @@
                     width: 500px;
                     background-color: rgba(84, 81, 81, 0.425);
                     h5{
-                        text-align: center;
-                        padding: 10px;
-                        font-size: 2em;
-                        border-bottom: 1px solid rgba(153, 148, 148, 0.498);
+                        @extend .titulo-especificaciones;
                     }
                     ul{
                         list-style-type: circle;
                         li{
-                            padding: 10px;
-                            border-bottom: 1px solid rgba(153, 148, 148, 0.498);
+                            @extend .li;
                         }
                     }
             }
@@ -80,16 +76,12 @@
                 width: 500px;
                 background-color: rgba(84, 81, 81, 0.425);
                     h5{
-                        text-align: center;
-                        padding: 10px;
-                        font-size: 2em;
-                        border-bottom: 1px solid rgba(153, 148, 148, 0.498);
+                        @extend .titulo-especificaciones;
                     }
                     ul{
                         list-style-type: circle;
                         li{
-                            padding: 10px;
-                            border-bottom: 1px solid rgba(153, 148, 148, 0.498);
+                            @extend .li;
                         }
                     }
             }

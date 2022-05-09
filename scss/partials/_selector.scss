@@ -9,7 +9,7 @@
     font-size: 12px;
     margin: 0 auto;
     border-radius: 20px;
-    border: 2px solid white;
+    border: $borde-secciones;
     background-color: black;
 }
 }
@@ -28,7 +28,6 @@
         margin: 150px 0px;
         .selector{
             width: 150px;
-            font-size: 18px;
         }
     }
 }

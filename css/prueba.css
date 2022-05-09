@@ -253,16 +253,8 @@ footer {
     flex-direction: column;
     width: 500px;
     background-color: rgba(84, 81, 81, 0.425); }
-    .secciones .contenedor .guitarra div .especificaciones h5 {
-      text-align: center;
-      padding: 10px;
-      font-size: 2em;
-      border-bottom: 1px solid rgba(153, 148, 148, 0.498); }
     .secciones .contenedor .guitarra div .especificaciones ul {
       list-style-type: circle; }
-      .secciones .contenedor .guitarra div .especificaciones ul li {
-        padding: 10px;
-        border-bottom: 1px solid rgba(153, 148, 148, 0.498); }
 
 @keyframes instrumento {
   0% {
@@ -281,16 +273,8 @@ footer {
     flex-direction: column;
     width: 500px;
     background-color: rgba(84, 81, 81, 0.425); }
-    .secciones .contenedor .bajo div .especificaciones h5 {
-      text-align: center;
-      padding: 10px;
-      font-size: 2em;
-      border-bottom: 1px solid rgba(153, 148, 148, 0.498); }
     .secciones .contenedor .bajo div .especificaciones ul {
       list-style-type: circle; }
-      .secciones .contenedor .bajo div .especificaciones ul li {
-        padding: 10px;
-        border-bottom: 1px solid rgba(153, 148, 148, 0.498); }
 
 @keyframes instrumento {
   0% {
@@ -548,3 +532,13 @@ form {
   margin: 50px 0px;
   border: 2px solid rgba(168, 159, 159, 0.605);
   border-radius: 15px; }
+
+.li, .secciones .contenedor .guitarra div .especificaciones ul li, .secciones .contenedor .bajo div .especificaciones ul li {
+  padding: 10px;
+  border-bottom: 1px solid rgba(153, 148, 148, 0.498); }
+
+.titulo-especificaciones, .secciones .contenedor .guitarra div .especificaciones h5, .secciones .contenedor .bajo div .especificaciones h5 {
+  text-align: center;
+  padding: 10px;
+  font-size: 2em;
+  border-bottom: 1px solid rgba(153, 148, 148, 0.498); }
