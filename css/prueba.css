@@ -234,7 +234,7 @@ footer {
     margin: 30px auto;
     font-size: 2em; }
   .introduccion p {
-    font-size: 15px;
+    font-size: 1em;
     margin-top: 30px; }
 
 .secciones .contenedor {
@@ -318,6 +318,14 @@ footer {
     transform: rotateX(30deg); } }
 
 @media (min-width: 768px) {
+  .introduccion h2 {
+    font-size: 3em; }
+  .introduccion p {
+    font-size: 2em; }
+  .secciones .contenedor .colaboraciones h4 {
+    font-size: 2em; }
+  .secciones .contenedor .guitarra h4 {
+    font-size: 2em; }
   .secciones .contenedor .guitarra div {
     display: flex;
     flex-direction: column;
@@ -326,6 +334,8 @@ footer {
       display: flex;
       width: 80%;
       margin: 30px auto; }
+  .secciones .contenedor .bajo h4 {
+    font-size: 2em; }
   .secciones .contenedor .bajo div {
     display: flex;
     flex-direction: column;
