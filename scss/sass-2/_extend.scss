@@ -1,0 +1,10 @@
+@import "../variables/variables";
+.card{
+    display: flex;
+        flex-direction: column;
+        width: 230px;
+        margin:10px auto;
+        background-color:$card;
+        border: $borde;
+        border-radius: 10px;
+}

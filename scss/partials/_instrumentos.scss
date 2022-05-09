@@ -4,14 +4,7 @@
     margin:20px;
     width: 95%;
     .card{
-        display: flex;
-        flex-direction: column;
-        width: 230px;
-        margin:10px auto;
-        background-color: rgba(72, 68, 68, 0.413);
-        border: 1px solid white;
-        border-radius: 10px;
-
+        @extend .card;
         img{
             width: 50%;
             margin: 20px auto;
