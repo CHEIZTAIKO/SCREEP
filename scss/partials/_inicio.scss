@@ -49,17 +49,22 @@
             .especificaciones{
                     display: none;
                     flex-direction: column;
-                    border: 1px solid white;
-                    border-radius: 15px;
+
                     width: 500px;
+                    background-color: rgba(66, 60, 60, 0.425);
                     h5{
                         text-align: center;
                         padding: 10px;
                         font-size: 2em;
+                        border-bottom: 1px solid rgba(153, 148, 148, 0.498);
                     }
                     ul{
                         list-style-type: none;
                         padding: 5px;
+                        li{
+                            padding: 10px;
+                            border-bottom: 1px solid rgba(153, 148, 148, 0.498);
+                        }
                     }
             }
             }

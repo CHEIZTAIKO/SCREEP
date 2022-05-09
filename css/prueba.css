@@ -269,16 +269,19 @@ footer {
     .secciones .contenedor .guitarra div .especificaciones {
       display: none;
       flex-direction: column;
-      border: 1px solid white;
-      border-radius: 15px;
-      width: 500px; }
+      width: 500px;
+      background-color: rgba(66, 60, 60, 0.425); }
       .secciones .contenedor .guitarra div .especificaciones h5 {
         text-align: center;
         padding: 10px;
-        font-size: 2em; }
+        font-size: 2em;
+        border-bottom: 1px solid rgba(153, 148, 148, 0.498); }
       .secciones .contenedor .guitarra div .especificaciones ul {
         list-style-type: none;
         padding: 5px; }
+        .secciones .contenedor .guitarra div .especificaciones ul li {
+          padding: 10px;
+          border-bottom: 1px solid rgba(153, 148, 148, 0.498); }
 
 @keyframes guitarra {
   0% {
