@@ -527,7 +527,7 @@ form {
         text-align: center; }
       .galeria figure figcaption p {
         display: none;
-        font-size: 9px;
+        font-size: 14px;
         padding: 10px; }
 
 @media (min-width: 768px) {
