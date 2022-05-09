@@ -264,7 +264,7 @@ footer {
       border-radius: 15px; }
     .secciones .contenedor .guitarra div img {
       width: 100%;
-      animation: guitarra 5s infinite;
+      animation: instrumento 5s infinite;
       animation-direction: alternate; }
     .secciones .contenedor .guitarra div .especificaciones {
       display: none;
@@ -282,7 +282,7 @@ footer {
           padding: 10px;
           border-bottom: 1px solid rgba(153, 148, 148, 0.498); }
 
-@keyframes guitarra {
+@keyframes instrumento {
   0% {
     transform: rotateX(0deg); }
   100% {
@@ -297,7 +297,7 @@ footer {
       border-radius: 15px; }
     .secciones .contenedor .bajo div img {
       width: 100%;
-      animation: bajo 5s infinite;
+      animation: instrumento 5s infinite;
       animation-direction: alternate; }
     .secciones .contenedor .bajo div .especificaciones {
       display: none;
@@ -315,7 +315,7 @@ footer {
           padding: 10px;
           border-bottom: 1px solid rgba(153, 148, 148, 0.498); }
 
-@keyframes bajo {
+@keyframes instrumento {
   0% {
     transform: rotateX(0deg); }
   100% {

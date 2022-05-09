@@ -43,7 +43,7 @@
             div{
             img{
                 width: 100%;
-                animation: guitarra 5s infinite;
+                animation: instrumento 5s infinite;
                 animation-direction: alternate;
             }
             .especificaciones{
@@ -66,7 +66,7 @@
                     }
             }
             }
-            @keyframes guitarra{
+            @keyframes instrumento{
                 0%{
                     transform: rotateX(0deg);
                 }
@@ -88,7 +88,7 @@
             div{
             img{
                 width: 100%;
-                animation: bajo 5s infinite;
+                animation: instrumento 5s infinite;
                 animation-direction: alternate;
             }
             .especificaciones{
@@ -111,7 +111,7 @@
                     }
             }
             }
-            @keyframes bajo{
+            @keyframes instrumento{
                 0%{
                     transform: rotateX(0deg);
                 }
