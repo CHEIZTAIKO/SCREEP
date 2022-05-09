@@ -503,7 +503,7 @@ form {
       font-size: 20px; } }
 
 .galeria {
-  width: 95%;
+  width: 90%;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr;
