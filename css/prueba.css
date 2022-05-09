@@ -237,83 +237,72 @@ footer {
     font-size: 1em;
     margin-top: 30px; }
 
-.secciones .contenedor {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  color: white;
-  font-size: 1em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
-  .secciones .contenedor .colaboraciones {
-    margin: 0px 30px 30px 30px; }
-    .secciones .contenedor .colaboraciones h4 {
-      color: rgba(181, 181, 181, 0.9);
+.secciones .contenedor .colaboraciones {
+  margin: 0px 30px 30px 30px; }
+  .secciones .contenedor .colaboraciones h4 {
+    color: rgba(181, 181, 181, 0.9);
+    text-align: center;
+    margin: 50px 0px;
+    border: 2px solid rgba(168, 159, 159, 0.605);
+    border-radius: 15px; }
+  .secciones .contenedor .colaboraciones img {
+    width: 100%; }
+
+.secciones .contenedor .guitarra {
+  margin: 30px; }
+  .secciones .contenedor .guitarra div img {
+    width: 100%;
+    animation: instrumento 5s infinite;
+    animation-direction: alternate; }
+  .secciones .contenedor .guitarra div .especificaciones {
+    display: none;
+    flex-direction: column;
+    width: 500px;
+    background-color: rgba(84, 81, 81, 0.425); }
+    .secciones .contenedor .guitarra div .especificaciones h5 {
       text-align: center;
-      margin: 50px 0px;
-      border: 2px solid rgba(168, 159, 159, 0.605);
-      border-radius: 15px; }
-    .secciones .contenedor .colaboraciones img {
-      width: 100%; }
-  .secciones .contenedor .guitarra {
-    margin: 30px; }
-    .secciones .contenedor .guitarra h4 {
-      color: rgba(181, 181, 181, 0.9);
-      text-align: center;
-      margin: 50px 0px;
-      border: 2px solid rgba(168, 159, 159, 0.605);
-      border-radius: 15px; }
-    .secciones .contenedor .guitarra div img {
-      width: 100%;
-      animation: instrumento 5s infinite;
-      animation-direction: alternate; }
-    .secciones .contenedor .guitarra div .especificaciones {
-      display: none;
-      flex-direction: column;
-      width: 500px;
-      background-color: rgba(84, 81, 81, 0.425); }
-      .secciones .contenedor .guitarra div .especificaciones h5 {
-        text-align: center;
+      padding: 10px;
+      font-size: 2em;
+      border-bottom: 1px solid rgba(153, 148, 148, 0.498); }
+    .secciones .contenedor .guitarra div .especificaciones ul {
+      list-style-type: circle; }
+      .secciones .contenedor .guitarra div .especificaciones ul li {
         padding: 10px;
-        font-size: 2em;
         border-bottom: 1px solid rgba(153, 148, 148, 0.498); }
-      .secciones .contenedor .guitarra div .especificaciones ul {
-        list-style-type: circle; }
-        .secciones .contenedor .guitarra div .especificaciones ul li {
-          padding: 10px;
-          border-bottom: 1px solid rgba(153, 148, 148, 0.498); }
 
 @keyframes instrumento {
   0% {
     transform: rotateX(0deg); }
   100% {
     transform: rotateX(30deg); } }
-  .secciones .contenedor .bajo {
-    margin: 30px; }
-    .secciones .contenedor .bajo h4 {
-      color: rgba(181, 181, 181, 0.9);
+
+.secciones .contenedor .bajo {
+  margin: 30px; }
+  .secciones .contenedor .bajo h4 {
+    color: rgba(181, 181, 181, 0.9);
+    text-align: center;
+    margin: 50px 0px;
+    border: 2px solid rgba(168, 159, 159, 0.605);
+    border-radius: 15px; }
+  .secciones .contenedor .bajo div img {
+    width: 100%;
+    animation: instrumento 5s infinite;
+    animation-direction: alternate; }
+  .secciones .contenedor .bajo div .especificaciones {
+    display: none;
+    flex-direction: column;
+    width: 500px;
+    background-color: rgba(84, 81, 81, 0.425); }
+    .secciones .contenedor .bajo div .especificaciones h5 {
       text-align: center;
-      margin: 50px 0px;
-      border: 2px solid rgba(168, 159, 159, 0.605);
-      border-radius: 15px; }
-    .secciones .contenedor .bajo div img {
-      width: 100%;
-      animation: instrumento 5s infinite;
-      animation-direction: alternate; }
-    .secciones .contenedor .bajo div .especificaciones {
-      display: none;
-      flex-direction: column;
-      width: 500px;
-      background-color: rgba(84, 81, 81, 0.425); }
-      .secciones .contenedor .bajo div .especificaciones h5 {
-        text-align: center;
+      padding: 10px;
+      font-size: 2em;
+      border-bottom: 1px solid rgba(153, 148, 148, 0.498); }
+    .secciones .contenedor .bajo div .especificaciones ul {
+      list-style-type: circle; }
+      .secciones .contenedor .bajo div .especificaciones ul li {
         padding: 10px;
-        font-size: 2em;
         border-bottom: 1px solid rgba(153, 148, 148, 0.498); }
-      .secciones .contenedor .bajo div .especificaciones ul {
-        list-style-type: circle; }
-        .secciones .contenedor .bajo div .especificaciones ul li {
-          padding: 10px;
-          border-bottom: 1px solid rgba(153, 148, 148, 0.498); }
 
 @keyframes instrumento {
   0% {
@@ -556,3 +545,18 @@ form {
   background-color: rgba(72, 68, 68, 0.413);
   border: 1px solid white;
   border-radius: 10px; }
+
+.contenedor, .secciones .contenedor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.subtitulos, .secciones .contenedor .guitarra h4 {
+  color: rgba(181, 181, 181, 0.9);
+  text-align: center;
+  margin: 50px 0px;
+  border: 2px solid rgba(168, 159, 159, 0.605);
+  border-radius: 15px; }
