@@ -21,9 +21,16 @@
             background-color: rgba(0, 0, 0, 0.8);
             &:hover{
                 height: 100%;
+                p{
+                    display: flex;
+                }
             }
             h2{
                 text-align: center;
+            }
+            p{
+                display: none;
+                padding: 5px;
             }
         }
     }

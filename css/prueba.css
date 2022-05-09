@@ -523,8 +523,13 @@ form {
       background-color: rgba(0, 0, 0, 0.8); }
       .galeria figure figcaption:hover {
         height: 100%; }
+        .galeria figure figcaption:hover p {
+          display: flex; }
       .galeria figure figcaption h2 {
         text-align: center; }
+      .galeria figure figcaption p {
+        display: none;
+        padding: 5px; }
 
 @media (min-width: 768px) {
   .galeria {
