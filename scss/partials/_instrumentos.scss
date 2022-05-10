@@ -1,7 +1,7 @@
 @import "../sass-2/mixin";
 
 .instrumentos{
-    @include grilla(1fr);
+    @include grilla(grid,1,0,5px);
     margin:20px;
     width: 95%;
     .card{
@@ -45,7 +45,7 @@
 
 @media (min-width:768px){
     .instrumentos{
-        @include grilla(2);
+        @include grilla(grid, 2, 0, 10px);
         .card{
             h4{
                 font-size:20px;
@@ -56,6 +56,6 @@
 
 @media (min-width:1024px){
     .instrumentos{
-        @include grilla(4)
+        @include grilla(grid, 4,0,20px )
     }
 }
