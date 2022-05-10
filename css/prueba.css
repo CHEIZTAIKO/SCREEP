@@ -455,12 +455,12 @@ form {
     grid-template-columns: repeat(4, 1fr); } }
 
 .galeria {
+  display: grid;
   width: 90%;
   margin: auto;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 280px 280px 280px 600px  280px;
-  gap: 20px; }
+  grid-template-columns: repeat(1fr, 1fr);
+  grid-template-rows: repeat(1fr, 1fr);
+  gap: 10px; }
   .galeria figure {
     position: relative; }
     .galeria figure img {
@@ -486,10 +486,12 @@ form {
 
 @media (min-width: 768px) {
   .galeria {
+    display: grid;
+    width: 90%;
+    margin: 50px;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 400px 250px 250px 400px;
-    gap: 20px;
-    margin: 50px; }
+    grid-template-rows: repeat(400px 250px 250px 400px, 1fr);
+    gap: 20px; }
     .galeria figure figcaption p {
       font-size: 18px; }
     .galeria figure:nth-child(1) {

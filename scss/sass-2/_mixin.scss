@@ -1,2 +1,10 @@
 @import "../variables/variables";
 
+@mixin grilla($grid,$ancho, $margen, $columnas, $filas, $espacio) {
+    display:$grid;
+    width: $ancho;
+    margin: $margen;
+    grid-template-columns: repeat($columnas, 1fr);
+    grid-template-rows: repeat($filas,1fr);
+    gap: $espacio;
+}

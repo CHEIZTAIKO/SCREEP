@@ -1,11 +1,6 @@
+@import "../sass-2/mixin";
 .galeria{
-    width: 90%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 280px 280px 280px 600px 
-    280px;
-    gap: 20px;
+    @include grilla(grid,90%, auto,1fr,1fr,10px);
     figure{
         position: relative;
         img{
@@ -39,10 +34,7 @@
 
 @media (min-width:768px){
     .galeria{
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: 400px 250px 250px 400px;
-        gap: 20px;
-        margin: 50px;
+        @include grilla(grid,90%, 50px,8,400px 250px 250px 400px,20px);
         figure{
             figcaption{
                 p{
