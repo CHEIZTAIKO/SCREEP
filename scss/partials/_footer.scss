@@ -1,5 +1,6 @@
+@import "../variables/variables";
 footer{
-    background-color: rgba(121, 114, 114, 0.073);
+    background-color: $fondo-footer;
     .yo{
         display: flex;
         flex-direction: column;
