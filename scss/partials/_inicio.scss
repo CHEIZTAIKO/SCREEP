@@ -19,7 +19,7 @@
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         .colaboraciones{
             margin: 0px 30px 30px 30px;
-            h4{
+            h2{
                 @extend .subtitulos;
             }
             img{
@@ -28,7 +28,7 @@
         }
         .guitarra{
             margin: 30px;
-            h4{
+            h2{
                 @extend .subtitulos;
             }
             div{
@@ -41,7 +41,7 @@
                     width: 500px;
                     flex-direction: column;
                     background-color: rgba(84, 81, 81, 0.425);
-                    h5{
+                    h3{
                         @extend .titulo-esp;
                     }
                     ul{
@@ -64,7 +64,7 @@
         }
         .bajo{
             margin: 30px;
-            h4{ 
+            h2{ 
                 @extend .subtitulos;
             }
             div{
@@ -77,7 +77,7 @@
                 background-color: rgba(84, 81, 81, 0.425);
                 display: none;
                 width: 500px;
-                    h5{
+                    h3{
                         @extend .titulo-esp;
                     }
                     ul{

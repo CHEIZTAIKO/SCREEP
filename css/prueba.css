@@ -534,7 +534,7 @@ form {
   border: 1px solid white;
   border-radius: 10px; }
 
-.subtitulos, .secciones .contenedor .colaboraciones h4, .secciones .contenedor .guitarra h4, .secciones .contenedor .bajo h4 {
+.subtitulos, .secciones .contenedor .colaboraciones h2, .secciones .contenedor .guitarra h2, .secciones .contenedor .bajo h2 {
   color: rgba(181, 181, 181, 0.9);
   text-align: center;
   margin: 50px 0px;
@@ -549,7 +549,7 @@ form {
   padding: 10px;
   border-bottom: 1px solid rgba(153, 148, 148, 0.498); }
 
-.titulo-esp, .secciones .contenedor .guitarra div .especificaciones h5, .secciones .contenedor .bajo div .especificaciones h5 {
+.titulo-esp, .secciones .contenedor .guitarra div .especificaciones h3, .secciones .contenedor .bajo div .especificaciones h3 {
   text-align: center;
   padding: 10px;
   font-size: 2em;
