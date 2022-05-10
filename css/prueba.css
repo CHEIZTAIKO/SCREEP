@@ -237,6 +237,7 @@ footer {
 
 .secciones .contenedor {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   color: white;
@@ -293,7 +294,8 @@ footer {
   .secciones .contenedor .guitarra div {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; }
+    justify-content: space-between;
+    flex-wrap: wrap; }
     .secciones .contenedor .guitarra div .especificaciones {
       display: flex;
       width: 80%;
@@ -303,7 +305,8 @@ footer {
   .secciones .contenedor .bajo div {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; }
+    justify-content: space-between;
+    flex-wrap: wrap; }
     .secciones .contenedor .bajo div .especificaciones {
       display: flex;
       width: 80%;

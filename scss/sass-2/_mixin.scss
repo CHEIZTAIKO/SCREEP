@@ -6,3 +6,10 @@
     grid-template-rows: repeat($fila, 1fr);
     gap:$espacio;
 }
+
+@mixin flexible($flexible, $bloque, $just){
+    display: $flexible;
+    flex-direction: $bloque;
+    justify-content: $just;
+    flex-wrap: wrap;
+}

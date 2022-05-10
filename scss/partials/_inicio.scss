@@ -1,3 +1,4 @@
+@import "../sass-2/mixin";
 .introduccion{
     text-align: center;
     color:white;
@@ -12,9 +13,7 @@
 }
 .secciones{
     .contenedor{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        @include flexible(flex,row,center);
         color: white;
         font-size: 1em;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -122,9 +121,7 @@
                     font-size: 2em;
                 }
                 div{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;
+                    @include flexible(flex, column, space-between);
                     .especificaciones{
                         display: flex;
                         width: 80%;
@@ -137,9 +134,7 @@
                     font-size: 2em;
                 }
                 div{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;
+                    @include flexible(flex, column, space-between);
                     .especificaciones{
                         display: flex;
                         width: 80%;
