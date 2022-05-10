@@ -1,7 +1,7 @@
 @import "../variables/variables";
+@import "../sass-2/mixin";
 .select{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr) ;
+    @include grilla(grid, 4,0,20px);
     margin: 100px 0px;
 .selector{
     width:100px ;
