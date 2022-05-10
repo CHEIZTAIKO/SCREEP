@@ -24,7 +24,7 @@
                 @extend .subtitulos;
             }
             img{
-                width: 100%;
+                width: $completo;
             }
         }
         .guitarra{
@@ -35,7 +35,7 @@
             div{
             img{
                 @extend .animaciones;
-                width: 100%;
+                width: $completo;
             }
             .especificaciones{
                     display: none;
@@ -71,7 +71,7 @@
             div{
             img{
                 @extend .animaciones;
-                width: 100%;
+                width: $completo;
             }
             .especificaciones{
                 flex-direction: column;
