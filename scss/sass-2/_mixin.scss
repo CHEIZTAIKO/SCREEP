@@ -1,1 +1,7 @@
 @import "../variables/variables";
+
+@mixin grilla($columna) {
+    display: grid;
+    grid-template-columns: repeat($columna, 1fr);
+
+}

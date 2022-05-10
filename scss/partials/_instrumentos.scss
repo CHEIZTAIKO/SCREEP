@@ -1,6 +1,7 @@
+@import "../sass-2/mixin";
+
 .instrumentos{
-    display: grid;
-    grid-template-columns: 1fr;
+    @include grilla(1fr);
     margin:20px;
     width: 95%;
     .card{
