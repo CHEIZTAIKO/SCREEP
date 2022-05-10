@@ -45,7 +45,7 @@
 
 @media (min-width:768px){
     .instrumentos{
-        grid-template-columns: 1fr 1fr;
+        @include grilla(2);
         .card{
             h4{
                 font-size:20px;

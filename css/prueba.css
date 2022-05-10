@@ -446,7 +446,8 @@ form {
 
 @media (min-width: 768px) {
   .instrumentos {
-    grid-template-columns: 1fr 1fr; }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
     .instrumentos .card h4 {
       font-size: 20px; } }
 
