@@ -1,6 +1,5 @@
 .banner{
-        margin-top: 60px;
-        position: relative;
+        @extend .posicion;
     img{
         width: $completo;            
         height: $completo;

@@ -1,6 +1,5 @@
 .titulos{
-    margin-top: 60px;
-    position: relative;
+    @extend .posicion;
     h1{ 
         margin:10px 0px;
         color: white;
