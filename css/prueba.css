@@ -458,8 +458,8 @@ form {
   display: grid;
   width: 90%;
   margin: auto;
-  grid-template-columns: repeat(1fr, 1fr);
-  grid-template-rows: repeat(1fr, 1fr);
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 280px);
   gap: 10px; }
   .galeria figure {
     position: relative; }
@@ -486,11 +486,9 @@ form {
 
 @media (min-width: 768px) {
   .galeria {
-    display: grid;
-    width: 90%;
     margin: 50px;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(400px 250px 250px 400px, 1fr);
+    grid-template-rows: 400px 250px 250px 400px;
     gap: 20px; }
     .galeria figure figcaption p {
       font-size: 18px; }
