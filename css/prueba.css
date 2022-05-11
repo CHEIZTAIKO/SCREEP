@@ -558,3 +558,35 @@ form {
 .posicion, .banner, .titulos {
   margin-top: 60px;
   position: relative; }
+
+section .informacion {
+  display: flex;
+  flex-direction: column; }
+  section .informacion img {
+    width: 60%;
+    margin: 20px auto;
+    border: 1px solid white; }
+  section .informacion p {
+    width: 80%;
+    font-size: 15px;
+    color: white;
+    margin: 20px auto;
+    text-align: left;
+    font-family: verdana; }
+
+@media (min-width: 768px) {
+  section .informacion {
+    flex-direction: row;
+    gap: 20px; }
+    section .informacion img {
+      width: 50%;
+      margin: 20px; }
+    section .informacion p {
+      font-size: 24px;
+      padding: 20px; } }
+
+@media (min-width: 1024px) {
+  section .informacion img {
+    width: 30%; }
+  section .informacion p {
+    font-size: 30px; } }
