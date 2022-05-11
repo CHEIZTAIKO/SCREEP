@@ -568,7 +568,7 @@ section .informacion {
     border: 1px solid white; }
   section .informacion p {
     width: 80%;
-    font-size: 15px;
+    font-size: 18px;
     color: white;
     margin: 20px auto;
     text-align: left;
