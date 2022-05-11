@@ -338,6 +338,14 @@ footer {
   text-align: center;
   font-size: 1.5em; }
 
+@media (min-width: 768px) {
+  .titulos h1 {
+    font-size: 2em; } }
+
+@media (min-width: 1024px) {
+  .titulos h1 {
+    font-size: 2.5em; } }
+
 .select {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
