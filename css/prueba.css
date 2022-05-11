@@ -499,10 +499,12 @@ form {
         .galeria figure figcaption:hover p {
           display: flex; }
       .galeria figure figcaption h2 {
-        text-align: center; }
+        text-align: center;
+        font-size: 2em;
+        padding: 10px; }
       .galeria figure figcaption p {
         display: none;
-        font-size: 14px;
+        font-size: 20px;
         padding: 10px; }
 
 @media (min-width: 768px) {
@@ -513,8 +515,11 @@ form {
     gap: 20px;
     margin: 50px;
     grid-template-rows: 400px 250px 250px 400px; }
+    .galeria figure figcaption h2 {
+      font-size: 1.5em;
+      padding: 5px; }
     .galeria figure figcaption p {
-      font-size: 18px; }
+      font-size: 14px; }
     .galeria figure:nth-child(1) {
       grid-column: 1 / 9; }
     .galeria figure:nth-child(2) {
@@ -530,6 +535,8 @@ form {
 @media (min-width: 1024px) {
   .galeria {
     grid-template-rows: 500px 300px 300px 500px; }
+    .galeria figure figcaption h2 {
+      font-size: 2em; }
     .galeria figure figcaption p {
       font-size: 1.2em; } }
 
