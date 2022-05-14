@@ -229,11 +229,14 @@ footer {
   text-align: center;
   color: white; }
   .introduccion h2 {
-    margin: 30px auto;
+    margin: 30px;
     font-size: 2em; }
+  .introduccion h3 {
+    margin: 10px;
+    font-size: 1.5em; }
   .introduccion p {
     font-size: 1em;
-    margin-top: 30px; }
+    font-weight: 500; }
 
 .secciones .contenedor {
   display: flex;
