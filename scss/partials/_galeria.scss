@@ -1,4 +1,5 @@
 @import "../sass-2/mixin";
+@import "../variables/variables";
 .galeria{
     @include grilla(grid, 1, 5, 10px);
     width: 90%;

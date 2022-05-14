@@ -20,7 +20,7 @@
         @include flexible(flex,row,center);
         color: white;
         font-size: 1em;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-family:$fuente;
         .colaboraciones{
             margin: 0px 30px 30px 30px;
             h2{
