@@ -21,6 +21,7 @@ footer{
                 animation: instagram 3s infinite;
                 animation-direction: alternate;
             }
+            /*animacion por separado debido a los diferentes colores*/
             @keyframes instagram{
                 0%{
                     color: white;

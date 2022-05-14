@@ -37,6 +37,7 @@
             }
             div{
             img{
+                /*asigno animacion del inicio*/
                 @extend .animaciones;
                 width: $completo;
             }
@@ -73,6 +74,7 @@
             }
             div{
             img{
+                /*asigno animacion del inicio a bajo*/
                 @extend .animaciones;
                 width: $completo;
             }

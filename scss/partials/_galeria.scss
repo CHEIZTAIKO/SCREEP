@@ -54,6 +54,7 @@
                 }
             }
         }
+        /*asigno las posiciones de cada elemento de la grilla*/
         figure:nth-child(1){
             grid-column: 1 / 9;
         }

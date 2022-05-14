@@ -1,5 +1,7 @@
 @import "../variables/variables";
 @import "../sass-2/mixin";
+/*grillas para acomodar selectores*/
+
 .select{
     @include grilla(grid, 2,2,20px);
     margin: 100px 0px;

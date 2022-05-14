@@ -9,6 +9,7 @@
         img{
             width: 50%;
             margin: 20px auto;
+            /*mismo movimiento distintos colores, cuando aprenda a ahorrarme mas codigos lo implemento, se que hay una forma mejor*/
             &.a:hover{
                 filter: drop-shadow(0 0 30px rgb(179, 255, 0));
                 @extend .movimiento;

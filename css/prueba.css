@@ -77,7 +77,8 @@ footer {
       justify-content: space-evenly;
       font-size: 3em;
       text-decoration: none;
-      margin: 40px 0; }
+      margin: 40px 0;
+      /*animacion por separado debido a los diferentes colores*/ }
       footer .yo div .instagram {
         animation: instagram 3s infinite;
         animation-direction: alternate; }
@@ -254,6 +255,7 @@ footer {
   .secciones .contenedor .guitarra {
     margin: 30px; }
     .secciones .contenedor .guitarra div img {
+      /*asigno animacion del inicio*/
       width: 100%; }
     .secciones .contenedor .guitarra div .especificaciones {
       display: none;
@@ -271,6 +273,7 @@ footer {
   .secciones .contenedor .bajo {
     margin: 30px; }
     .secciones .contenedor .bajo div img {
+      /*asigno animacion del inicio a bajo*/
       width: 100%; }
     .secciones .contenedor .bajo div .especificaciones {
       flex-direction: column;
@@ -350,6 +353,7 @@ footer {
   .titulos h1 {
     font-size: 2.5em; } }
 
+/*grillas para acomodar selectores*/
 .select {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -441,7 +445,8 @@ form {
   width: 95%; }
   .instrumentos .card img {
     width: 50%;
-    margin: 20px auto; }
+    margin: 20px auto;
+    /*mismo movimiento distintos colores, cuando aprenda a ahorrarme mas codigos lo implemento, se que hay una forma mejor*/ }
     .instrumentos .card img.a:hover {
       filter: drop-shadow(0 0 30px #b3ff00); }
     .instrumentos .card img.b:hover {
@@ -518,7 +523,8 @@ form {
     grid-template-rows: repeat(0, 1fr);
     gap: 20px;
     margin: 50px;
-    grid-template-rows: 400px 250px 250px 400px; }
+    grid-template-rows: 400px 250px 250px 400px;
+    /*asigno las posiciones de cada elemento de la grilla*/ }
     .galeria figure figcaption h2 {
       font-size: 1.5em;
       padding: 5px; }
