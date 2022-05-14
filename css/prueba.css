@@ -578,6 +578,10 @@ form {
   margin-top: 60px;
   position: relative; }
 
+.movimiento, .instrumentos .card img.a:hover, .instrumentos .card img.b:hover, .instrumentos .card img.c:hover, .instrumentos .card img.d:hover, .instrumentos .card img.e:hover, .instrumentos .card img.f:hover, .instrumentos .card img.g:hover, .instrumentos .card img.h:hover {
+  transform: scale(1.3) rotate(45deg);
+  transition: 1s; }
+
 section .informacion {
   display: flex;
   flex-direction: column; }

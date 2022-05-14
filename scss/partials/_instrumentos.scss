@@ -11,27 +11,35 @@
             margin: 20px auto;
             &.a:hover{
                 filter: drop-shadow(0 0 30px rgb(179, 255, 0));
+                @extend .movimiento;
             }
             &.b:hover{
                 filter: drop-shadow(0 0 30px rgb(255, 191, 0));
+                @extend .movimiento;
             }
             &.c:hover{
                 filter: drop-shadow(0 0 20px rgb(125, 99, 186));
+                @extend .movimiento;
             }
             &.d:hover{
                 filter: drop-shadow(0 0 30px rgb(78, 182, 196));
+                @extend .movimiento;
             }
             &.e:hover{
                 filter: drop-shadow(0 0 30px rgb(255, 0, 225));
+                @extend .movimiento;
             }
             &.f:hover{
                 filter: drop-shadow(0 0 30px rgb(43, 255, 0));
+                @extend .movimiento;
             }
             &.g:hover{
                 filter: drop-shadow(0 0 30px rgb(255, 0, 0));
+                @extend .movimiento;
             }
             &.h:hover{
                 filter: drop-shadow(0 0 30px rgb(255, 255, 255));
+                @extend .movimiento;
             }
         }
 
