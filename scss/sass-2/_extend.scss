@@ -1,4 +1,5 @@
 @import "../variables/variables";
+/*card de los instrumentos*/
 .card{
         display: flex;
         flex-direction: column;
@@ -15,6 +16,7 @@
                 border: $borde-secciones;
                 border-radius: 15px;
 }
+/*animacion de la guitarra y el bajo de inicio*/
 .animaciones{
     animation: instrumento 5s infinite;
     animation-direction: alternate;
@@ -33,6 +35,9 @@
     margin-top: 60px;
     position: relative;
 }
+/*
+movimiento de las guitarras al apuntarlas
+*/
 .movimiento{
     transform:scale(1.3) rotate(45deg);
     transition: 1s;

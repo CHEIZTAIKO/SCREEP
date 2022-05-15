@@ -179,6 +179,9 @@ footer {
       footer .productos ul li {
         margin: 0px 20px; } }
 
+/*
+banner de inicio
+*/
 .banner img {
   width: 100%;
   height: 100%; }
@@ -227,6 +230,12 @@ footer {
   .banner div a {
     display: none; } }
 
+/*
+mixin grid aplicado a la seccion de inicio y a las cards con los instrumentos
+*/
+/*
+mixin flex aplicado para acomodar contenido
+*/
 .introduccion {
   text-align: center;
   color: white; }
@@ -353,6 +362,12 @@ footer {
   .titulos h1 {
     font-size: 2.5em; } }
 
+/*
+mixin grid aplicado a la seccion de inicio y a las cards con los instrumentos
+*/
+/*
+mixin flex aplicado para acomodar contenido
+*/
 /*grillas para acomodar selectores*/
 .select {
   display: grid;
@@ -436,6 +451,12 @@ form {
   form {
     width: 450px; } }
 
+/*
+mixin grid aplicado a la seccion de inicio y a las cards con los instrumentos
+*/
+/*
+mixin flex aplicado para acomodar contenido
+*/
 .instrumentos {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -484,6 +505,12 @@ form {
     grid-template-rows: repeat(0, 1fr);
     gap: 20px; } }
 
+/*
+mixin grid aplicado a la seccion de inicio y a las cards con los instrumentos
+*/
+/*
+mixin flex aplicado para acomodar contenido
+*/
 .galeria {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -550,6 +577,7 @@ form {
     .galeria figure figcaption p {
       font-size: 1.2em; } }
 
+/*card de los instrumentos*/
 .card, .instrumentos .card {
   display: flex;
   flex-direction: column;
@@ -566,6 +594,7 @@ form {
   border: 2px solid rgba(168, 159, 159, 0.605);
   border-radius: 15px; }
 
+/*animacion de la guitarra y el bajo de inicio*/
 .animaciones, .secciones .contenedor .guitarra div img, .secciones .contenedor .bajo div img {
   animation: instrumento 5s infinite;
   animation-direction: alternate; }
@@ -584,10 +613,19 @@ form {
   margin-top: 60px;
   position: relative; }
 
+/*
+movimiento de las guitarras al apuntarlas
+*/
 .movimiento, .instrumentos .card img.a:hover, .instrumentos .card img.b:hover, .instrumentos .card img.c:hover, .instrumentos .card img.d:hover, .instrumentos .card img.e:hover, .instrumentos .card img.f:hover, .instrumentos .card img.g:hover, .instrumentos .card img.h:hover {
   transform: scale(1.3) rotate(45deg);
   transition: 1s; }
 
+/*
+mixin grid aplicado a la seccion de inicio y a las cards con los instrumentos
+*/
+/*
+mixin flex aplicado para acomodar contenido
+*/
 section .informacion {
   display: flex;
   flex-direction: column; }

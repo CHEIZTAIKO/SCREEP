@@ -1,12 +1,18 @@
 @import "../variables/variables";
 
+/*
+mixin grid aplicado a la seccion de inicio y a las cards con los instrumentos
+*/
+
 @mixin grilla($grid, $columna, $fila, $espacio) {
     display: $grid;
     grid-template-columns: repeat($columna, 1fr);
     grid-template-rows: repeat($fila, 1fr);
     gap:$espacio;
 }
-
+/*
+mixin flex aplicado para acomodar contenido
+*/
 @mixin flexible($flexible, $bloque, $just){
     display: $flexible;
     flex-direction: $bloque;
