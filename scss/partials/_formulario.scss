@@ -32,20 +32,51 @@ form{
         max-height: 220px;
         max-width: 100%;
     }
-    button{
+    .enviar{
         width: 100%;
         color: white;
         background: rgba(0, 0, 0, 0.9);
-        padding: 20px;
         border: 1px solid white;
         border-radius: 5px;
         font-weight: 400;
+        padding: 10px;
         margin: 20px auto;
         font-size: 1.5em;
         &:hover{
             background: rgba(89, 27, 203, 0.808);
             color: black;
             cursor: pointer;
+        }
+    }
+    .botones{
+        .btn{
+            border: none;
+            padding:10px 0;
+            width: $completo;
+            font-weight: bolder;
+            border-radius: 5px;
+            text-transform: uppercase;
+            margin: 15px auto;
+        }
+        .btn-facebook{
+            background-color: rgb(10, 82, 216);
+            color: white;
+            &:hover{
+                background-color: rgb(8, 69, 182);
+            }
+        }
+        .btn-google{
+            border: solid 1px #ccc;
+            &:hover{
+                background-color: rgb(240, 240, 240);
+            }
+        }
+        .btn-twitter{
+            background-color: rgb(10, 168, 216);
+            color: white;
+            &:hover{
+                background-color: rgb(8, 137, 177);
+            }
         }
     }
 }

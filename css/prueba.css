@@ -431,20 +431,42 @@ form {
     min-height: 120px;
     max-height: 220px;
     max-width: 100%; }
-  form button {
+  form .enviar {
     width: 100%;
     color: white;
     background: rgba(0, 0, 0, 0.9);
-    padding: 20px;
     border: 1px solid white;
     border-radius: 5px;
     font-weight: 400;
+    padding: 10px;
     margin: 20px auto;
     font-size: 1.5em; }
-    form button:hover {
+    form .enviar:hover {
       background: rgba(89, 27, 203, 0.808);
       color: black;
       cursor: pointer; }
+  form .botones .btn {
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+    font-weight: bolder;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 15px auto; }
+  form .botones .btn-facebook {
+    background-color: #0a52d8;
+    color: white; }
+    form .botones .btn-facebook:hover {
+      background-color: #0845b6; }
+  form .botones .btn-google {
+    border: solid 1px #ccc; }
+    form .botones .btn-google:hover {
+      background-color: #f0f0f0; }
+  form .botones .btn-twitter {
+    background-color: #0aa8d8;
+    color: white; }
+    form .botones .btn-twitter:hover {
+      background-color: #0889b1; }
 
 @media (min-width: 500px) {
   form {
