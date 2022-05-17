@@ -7,7 +7,6 @@
         margin:10px auto;
         background-color:$card;
         border: $borde;
-        border-radius: 10px;
 }
 .subtitulos{
                 color: rgba(181, 181, 181, 0.9);
@@ -39,6 +38,6 @@
 movimiento de las guitarras al apuntarlas
 */
 .movimiento{
-    transform:scale(1.1) rotate(30deg);
+    transform:scale(1.1) rotate(25deg) translateY(-15px);
     transition: 1s;
 }
