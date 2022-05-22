@@ -75,7 +75,7 @@ footer {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
-      font-size: 3em;
+      font-size: 2em;
       text-decoration: none;
       margin: 40px 0;
       /*animacion por separado debido a los diferentes colores*/ }
@@ -142,7 +142,8 @@ footer {
     justify-content: space-evenly;
     align-items: center; }
     footer .yo h3 {
-      font-size: 2em; }
+      font-size: 2em;
+      font-weight: 200; }
     footer .yo div {
       flex-direction: column; }
       footer .yo div a {
@@ -154,7 +155,8 @@ footer {
     align-items: center;
     margin: 0; }
     footer .productos h3 {
-      font-size: 2em; }
+      font-size: 2em;
+      font-weight: 200; }
     footer .productos ul li {
       font-size: 1em; }
   footer p {
