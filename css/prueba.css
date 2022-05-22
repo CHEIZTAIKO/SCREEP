@@ -603,7 +603,7 @@ mixin flex aplicado para acomodar contenido
       font-size: 1.5em;
       padding: 5px; }
     .galeria figure figcaption p {
-      font-size: 14px; }
+      font-size: 16px; }
     .galeria figure:nth-child(1) {
       grid-column: 1 / 9; }
     .galeria figure:nth-child(2) {
