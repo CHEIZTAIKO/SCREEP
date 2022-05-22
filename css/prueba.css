@@ -528,7 +528,10 @@ mixin flex aplicado para acomodar contenido
       text-align: center; }
     .instrumentos .card .especificaciones-hover ul {
       display: none;
-      flex-direction: column; }
+      flex-direction: column;
+      width: 90%;
+      margin: auto;
+      font-size: 14px; }
 
 @media (min-width: 768px) {
   .instrumentos {
