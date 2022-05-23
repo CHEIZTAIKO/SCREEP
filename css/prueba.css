@@ -61,16 +61,26 @@ header {
         background-color: black;
         color: white; } }
 
+/*
+mixin grid aplicado a la seccion de inicio y a las cards con los instrumentos
+*/
+/*
+mixin flex aplicado para acomodar contenido
+*/
 footer {
   background-color: rgba(121, 114, 114, 0.073); }
   footer .yo {
-    display: flex;
-    flex-direction: column; }
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px; }
     footer .yo h3 {
+      position: relative;
+      top: 40px;
       font-size: 2em;
-      margin: 40px 0px;
       text-align: center;
-      color: white; }
+      color: white;
+      font-weight: 200; }
     footer .yo div {
       display: flex;
       flex-direction: row;
@@ -107,14 +117,18 @@ footer {
   100% {
     color: #e11b1b; } }
   footer .productos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    margin: 20px auto; }
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    color: white; }
     footer .productos h3 {
+      position: relative;
+      top: 80px;
       font-size: 2em;
-      margin: 0px 0px 20px 0px; }
+      text-align: center;
+      color: white;
+      font-weight: 200; }
     footer .productos ul {
       display: flex;
       flex-direction: column;
@@ -125,12 +139,12 @@ footer {
       footer .productos ul li {
         font-size: 1.5em;
         margin: 10px 0px; }
-  footer p {
+  footer .autor p {
     margin: 30px 0px;
     font-size: 1em;
     text-align: center;
     color: white; }
-  footer .derechos {
+  footer .autor .derechos {
     height: 30px;
     text-align: center;
     font-size: 0.5em;
@@ -138,48 +152,51 @@ footer {
 
 @media (min-width: 768px) {
   footer .yo {
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center; }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 20px; }
     footer .yo h3 {
-      font-size: 2em;
-      font-weight: 200; }
-    footer .yo div {
-      flex-direction: column; }
-      footer .yo div a {
-        font-size: 1.5em;
-        margin-bottom: 45px; }
+      font-size: 2em; }
+    footer .yo div a {
+      font-size: 1em;
+      margin-left: 50px; }
   footer .productos {
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 0; }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 20px; }
     footer .productos h3 {
       font-size: 2em;
       font-weight: 200; }
-    footer .productos ul li {
-      font-size: 1em; }
-  footer p {
-    font-size: 1em; } }
+    footer .productos ul {
+      position: relative;
+      top: 50px; }
+      footer .productos ul li {
+        font-size: 1em; }
+  footer .autor {
+    margin-top: 80px; }
+    footer .autor p {
+      font-size: 1em; } }
 
 @media (min-width: 1024px) {
-  footer .yo {
-    margin: 0px 50px;
-    justify-content: space-between; }
-    footer .yo div {
-      flex-direction: row;
-      align-content: center;
-      margin: 0px; }
-      footer .yo div a {
-        margin: 0px 20px; }
-  footer .productos {
-    margin: 0px 50px;
-    margin-top: 40px;
-    justify-content: space-between; }
-    footer .productos ul {
-      flex-direction: row; }
-      footer .productos ul li {
-        margin: 0px 20px; } }
+  footer .yo div {
+    flex-direction: row;
+    align-content: center; }
+    footer .yo div a {
+      margin: 0px 20px; }
+  footer .productos ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px; }
+    footer .productos ul li {
+      margin: 0px 20px; }
+  footer .autor {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 20px; } }
 
 /*
 banner de inicio
