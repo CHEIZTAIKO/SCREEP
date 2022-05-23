@@ -50,7 +50,7 @@
                         @extend .titulo-esp;
                     }
                     ul{
-                        list-style-type: circle;
+                        list-style-type: none;
                         li{
                             @extend .li;
                         }

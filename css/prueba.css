@@ -291,7 +291,7 @@ mixin flex aplicado para acomodar contenido
       flex-direction: column;
       background-color: rgba(84, 81, 81, 0.425); }
       .secciones .contenedor .guitarra div .especificaciones ul {
-        list-style-type: circle; }
+        list-style-type: none; }
 
 @keyframes instrumento {
   0% {
