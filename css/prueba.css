@@ -309,7 +309,7 @@ mixin flex aplicado para acomodar contenido
       display: none;
       width: 500px; }
       .secciones .contenedor .bajo div .especificaciones ul {
-        list-style-type: circle; }
+        list-style-type: none; }
 
 @keyframes instrumento {
   0% {
